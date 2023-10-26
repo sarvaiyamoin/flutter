@@ -1652,7 +1652,7 @@ class _CalendarRangePickerDialog extends StatelessWidget {
           actionsIconTheme: iconTheme,
           elevation: useMaterial3 ? 0 : null,
           scrolledUnderElevation: useMaterial3 ? 0 : null,
-          backgroundColor: useMaterial3 ? headerBackground : null,
+          backgroundColor: headerBackground ,
           leading: CloseButton(
             onPressed: onCancel,
           ),
